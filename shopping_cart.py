@@ -113,7 +113,9 @@ print ("Amount of purchase:" f"${total_price:,.2f}")
 print ("plus MA Sales Tax (6.25%):" f"${tax:,.2f}")
 
 print ("The total price is:", f"${sum_total:,.2f}")
+print("----------------------------------------")
 
+print("Thank you for shopping at Christy's Bodega. Have a wonderful day. I love you")
 
 #A grocery store name of your choice
 #A grocery store phone number and/or website URL and/or address of choice
