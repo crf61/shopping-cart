@@ -71,6 +71,10 @@ while True:
 
 
 # print(selected_ids)
+taxrate = 6.25
+tax = total_price * taxrate
+sum_total = tax + total_price
+
 import datetime
 x = datetime.datetime.now ()
 
@@ -85,17 +89,15 @@ print("CHRISTY'S BODEGA IN AREA FOUR")
 print("----------------------------------------")
 print("Website: TrapBodega.com")
 print("Phone: 123-456-7890")
-print (x)
+print ("Date:", x)
 print("----------------------------------------")
 print("What's in Your Basket: ")
-for matching_product["name"] in matching_products["name"]:
-    print(matching_product["name"])
-            
-
-
+#Christy was unable to figure this out
 print("----------------------------------------")
 print ("TOTAL PRICE: " + str(total_price)) 
-
+#calculate tax
+print ("plus MA Sales Tax (6.25%):", tax)
+print ("The total price is:", sum_total)
 
 
 #A grocery store name of your choice
