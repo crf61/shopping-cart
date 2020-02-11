@@ -28,3 +28,8 @@ Using the input function, require that the user inputs a number by writing "plea
 
 # Done
     If statement: If id is "Done" then or (:) break or (else) products
+
+# Total Price
+    To make the program print out the total price, define the variable BEFORE THE LOOP
+    Then make the program print out the total price after the loop
+    Make sure that you make the program calculate the total price in additional to the matching_product["price"] 
