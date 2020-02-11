@@ -19,3 +19,12 @@ Using the input function, require that the user inputs a number by writing "plea
 
 # The computer is dumb, make the product equal a string
     Make the program print the string that is associated with the id by putting str before it.
+
+# Look Up Product Name  
+    Now that the product can connect numbers and products using str, let make the 
+
+# Start a loop
+    Put "while" and then the input code under it indented
+
+# Done
+    If statement: If id is "Done" then or (:) break or (else) products
