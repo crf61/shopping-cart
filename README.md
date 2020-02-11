@@ -32,4 +32,7 @@ Using the input function, require that the user inputs a number by writing "plea
 # Total Price
     To make the program print out the total price, define the variable BEFORE THE LOOP
     Then make the program print out the total price after the loop
-    Make sure that you make the program calculate the total price in additional to the matching_product["price"] 
+    Make sure that you make the program calculate the total price in additional to the matching_product["price"
+    
+# Simplify the Process
+    Remove the list that pops up after the user says done; put a "for" function which will print the receipt at the end. Just copy and past the past code.
