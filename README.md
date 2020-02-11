@@ -1,9 +1,17 @@
-# shopping-cart
+# shopping-cart informational
 
 [Project Description]
     (https://github.com/prof-rossetti/intro-to-python/blob/master/projects/shopping-cart/README.md)
-# Set up and run the app
-Create repository, MAKE SURE TO ADD README, clone to computer. Afterwards, create a file with produvts in shopping_cart.py, create virtual environment, y, then activate.
+# Set up and run the app/ Installation
+Create repository, MAKE SURE TO ADD README, clone to computer. 
+Open the local file on your computer.
+This will open on a Github desktop -- > open in VS
+Open in terminal OR cd ~ desktop/shopping_cart
+# Set Up
+Afterwards, create a file with products in it called shopping_cart.py
+create virtual environment using conda create -n shopping-env python=3.7
+--> y 
+-->  then activate conda activate shopping-env
 # You are ready to code! 
 # Have the user input a product identifier
 Have the user input an id
