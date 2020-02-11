@@ -46,3 +46,6 @@ Using the input function, require that the user inputs a number by writing "plea
     
 # Simplify the Process
     Remove the list that pops up after the user says done; put a "for" function which will print the receipt at the end. Just copy and past the past code.
+
+# Note to Christy
+    Order matters! I couldn't figure out the tax because the order was messed up. Come on Christy!

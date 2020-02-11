@@ -71,9 +71,7 @@ while True:
 
 
 # print(selected_ids)
-taxrate = 6.25
-tax = total_price * taxrate
-sum_total = tax + total_price
+
 
 import datetime
 x = datetime.datetime.now ()
@@ -83,6 +81,10 @@ for selected_id in selected_ids:
             matching_product = matching_products[0]
             total_price = total_price + matching_product["price"]
             print("SELECTED PRODUCTED: " + matching_product["name"] + " " + str(matching_product["price"]))  
+
+taxrate = 0.065
+tax = total_price * taxrate
+sum_total = tax + total_price
 
 print("----------------------------------------")
 print("CHRISTY'S BODEGA IN AREA FOUR")
@@ -94,10 +96,12 @@ print("----------------------------------------")
 print("What's in Your Basket: ")
 #Christy was unable to figure this out
 print("----------------------------------------")
-print ("TOTAL PRICE: " + str(total_price)) 
+print ("Amount of purchase:" f"${total_price:,.2f}")
 #calculate tax
-print ("plus MA Sales Tax (6.25%):", tax)
-print ("The total price is:", sum_total)
+
+print ("plus MA Sales Tax (6.25%):" f"${tax:,.2f}")
+
+print ("The total price is:", f"${sum_total:,.2f}")
 
 
 #A grocery store name of your choice
