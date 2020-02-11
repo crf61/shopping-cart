@@ -12,7 +12,9 @@ Afterwards, create a file with products in it called shopping_cart.py
 create virtual environment using conda create -n shopping-env python=3.7
 --> y 
 -->  then activate conda activate shopping-env
+
 # You are ready to code! 
+
 # Have the user input a product identifier
 Have the user input an id
 Using the input function, require that the user inputs a number by writing "please enter a product identifyer"
