@@ -86,6 +86,12 @@ taxrate = 0.065
 tax = total_price * taxrate
 sum_total = tax + total_price
 
+def lookup_product_by_id(selected_id):
+    matching_products = [p for p in products if str(p["id"]) == str(selected_id)]
+    return matching_products[0]
+
+price = 0
+
 print("----------------------------------------")
 print("CHRISTY'S BODEGA IN AREA FOUR")
 print("----------------------------------------")
@@ -94,6 +100,11 @@ print("Phone: 123-456-7890")
 print ("Date:", x)
 print("----------------------------------------")
 print("What's in Your Basket: ")
+for selected_id in selected_ids:
+    product = lookup_product_by_id(selected_id)
+    price += product["price"]
+    price_usd = ' (${0:.2f})'.format(product["price"])
+    print(" + " + product["name"] + price_usd)
 #Christy was unable to figure this out
 print("----------------------------------------")
 print ("Amount of purchase:" f"${total_price:,.2f}")
