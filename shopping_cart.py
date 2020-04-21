@@ -36,8 +36,8 @@ products = [
 def to_usd(my_price):
     return f"${my_price:,.2f}"
 
-
-# TODO: write some Python code here to produce the desired output
+if __name__ == "__main__":
+    # TODO: write some Python code here to produce the desired output
 
 
 #
