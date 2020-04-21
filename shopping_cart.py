@@ -34,14 +34,8 @@ products = [
 ] # based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping-2017
 
 def to_usd(my_price):
-    """
-    Converts a numeric value to usd-formatted string, for printing and display purposes.
-    Source: https://github.com/prof-rossetti/intro-to-python/blob/master/notes/python/datatypes/numbers.md#formatting-as-currency
-    Param: my_price (int or float) like 4000.444444
-    Example: to_usd(4000.444444)
-    Returns: $4,000.44
-    """
-    return f"${my_price:,.2f}" #> $12,000.71
+    return f"${my_price:,.2f}"
+
 
 # TODO: write some Python code here to produce the desired output
 
@@ -107,15 +101,15 @@ for selected_id in selected_ids:
     print(" + " + product["name"] + price_usd)
 #Christy was unable to figure this out
 print("----------------------------------------")
-print ("Amount of purchase:" f"${total_price:,.2f}")
+print (f"Amount of purchase: {to_usd(total_price)}")
 #calculate tax
 
-print ("plus MA Sales Tax (6.25%):" f"${tax:,.2f}")
+print (f"plus MA Sales Tax (6.25%): {to_usd(tax)}")
 
-print ("The total price is:", f"${sum_total:,.2f}")
+print (f"The total price is:, {to_usd(sum_total)}")
 print("----------------------------------------")
 
-print("Thank you for shopping at Christy's Bodega. Have a wonderful day. I love you")
+print(f"Thank you for shopping at Christy's Bodega. Have a wonderful day. I love you")
 
 #A grocery store name of your choice
 #A grocery store phone number and/or website URL and/or address of choice
